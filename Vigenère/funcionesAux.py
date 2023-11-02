@@ -46,7 +46,7 @@ def entrada_parametros():
 def Cifrado_Vigenere(t,c):
     clave_numeros=palabra_a_numeros(c)
     texto_numeros=palabra_a_numeros(completa_longitud(t))
-    print(clave_numeros,texto_numeros)
+    print(f"La clave de forma numérica es {clave_numeros} y el texto es {texto_numeros}")
     
     if len(c)==2:
         vm = Vig_Codificacion_25_2(texto_numeros,clave_numeros)
